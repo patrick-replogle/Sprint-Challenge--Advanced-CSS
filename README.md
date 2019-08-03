@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website uses multiple fixed (static) layouts to translate your website or app over to different screen sizes.  A responsive website will do the same thing, but better by creating one main layout.  This layout will include multiple max-width or min-width break points that will move content dynamically around the page as the screen size is adjusted.   This makes the page responsive because you can shrink or enlarge the page and the content will always adjust to screen size.  
+
 2. Describe what it means to be mobile first vs desktop first.
+
+A mobile first design is a responsive website that starts it's layout to be made for phones first.  The break points in a mobile first page use min-width to then make the site responsive enough to view on tablets and desktop screens.  A desktop first approach is the exact opposite, in that the desktop version of the page is designed first and then the developers uses max-width breakpoints to create a responsive design for smaller screens.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Rem's are responsive and therefore won't override internet browser settings.  By declaring the font-size of your entire page to 62.5%, you are basically saving yourself from doing math every time you select a font-size.  At 62.5%, 1 rem equals 10px, 2 rem equals 20px etc...This makes it really easy to create a responsive layout, since it's easy to work in increments of 10.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+ A preprocessor is a program that let's you generate CSS from the preprocessor's own unique syntax.  Preprocessors come with a range of features and tools that vanilla CSS doesn't have.  Therefore it helps the coder when writing code if used effectively and automatically translates your preprocessor unique code into vanilla CSS syntax. 
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite part of preprocessing is having a range of new tools to use such as mixins, variables, functions, nesting, and javascript syntax.  The part I hate the most is when the compiler gets caught up on a syntax error.  While it's nice to get an error message, it's easy to miss it if you aren't paying attention to your terminal and it becomes one more thing to keep track of.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
