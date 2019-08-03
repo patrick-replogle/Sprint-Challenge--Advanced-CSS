@@ -320,7 +320,14 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.image-div {
+  max-width: 800px;
+}
+.image-div img {
+  width: 200px;
+  height: 200px;
+}
 address {
+  font-size: 3 rem;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 4rem;
 }
