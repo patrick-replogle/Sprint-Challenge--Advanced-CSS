@@ -32,8 +32,8 @@
 
     @media @phone {
       .blast {
-        width: 90%;
-        margin: 20px 2.5%;
+        width: 92%; 
+        margin-bottom: 0;
       }
 
       .sky{
@@ -41,8 +41,7 @@
       }
 
       .launch{
-        display: none;
-        
+        display: none; 
       }
     }
   }
@@ -68,6 +67,8 @@
 
     @media @phone {
       .column;
+      padding: 0 5px;
+      margin-top: 20px;
     }
 
     .walk-text {
@@ -95,6 +96,11 @@
       text-decoration: none;
       display: inline-block;
       border-radius: 4px;
+
+      @media @phone {
+        .phone-mixin;
+        padding: 20px;
+      }
   
       &:hover {
         background: darken(@btn-bg-color, 15%);
@@ -109,7 +115,9 @@
       margin-left: 4%;
 
       @media @phone {
-        .phone-mixin;
+        width: 95%;
+        margin-bottom: 15px;
+        margin-left: 2%
       }
       
       img {

@@ -226,8 +226,8 @@ footer {
 }
 @media (max-width: 500px) {
   .home .space-images .blast {
-    width: 90%;
-    margin: 20px 2.5%;
+    width: 92%;
+    margin-bottom: 0;
   }
   .home .space-images .sky {
     display: none;
@@ -257,6 +257,8 @@ footer {
     display: flex;
     flex-direction: column-reverse;
     justify-content: center;
+    padding: 0 5px;
+    margin-top: 20px;
   }
 }
 .home .walk .walk-text {
@@ -285,6 +287,12 @@ footer {
   display: inline-block;
   border-radius: 4px;
 }
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    width: 100%;
+    padding: 20px;
+  }
+}
 .home .walk .walk-text .btn:hover {
   background: #06070a;
   color: #d9d9d9;
@@ -295,7 +303,9 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-img {
-    width: 100%;
+    width: 95%;
+    margin-bottom: 15px;
+    margin-left: 2%;
   }
 }
 .home .walk .walk-img img {
