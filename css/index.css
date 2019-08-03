@@ -295,8 +295,8 @@ footer {
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
-    width: 100%;
-    padding: 20px;
+    width: 97%;
+    padding: 20px 18px 20px 18px;
   }
 }
 .home .walk .walk-text .btn:hover {
@@ -319,4 +319,8 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+address {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 4rem;
 }
