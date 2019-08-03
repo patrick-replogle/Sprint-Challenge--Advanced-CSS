@@ -1,6 +1,11 @@
-.column {
+.column-reverse {
   display: flex;
   flex-direction: column-reverse;
+  justify-content: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 .phone-mixin {
@@ -267,6 +272,7 @@ footer {
 @media (max-width: 500px) {
   .home .walk .walk-text {
     width: 100%;
+    padding-left: 15px;
   }
 }
 .home .walk .walk-text h3 {
@@ -305,6 +311,7 @@ footer {
   .home .walk .walk-img {
     width: 95%;
     margin-bottom: 15px;
+    margin-top: -15px;
     margin-left: 2%;
   }
 }
